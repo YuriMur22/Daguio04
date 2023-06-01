@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 90%;
+    overflow: auto;
+}
+.heading {
+    text-align: center;
+    font-size: 70px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    width: 4vw;
+    font-size: 11.5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+}
+
+.per_table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.link {
+    color: black; /* Change this to the desired color */
+    text-decoration: none; /* Optional: Removes underline */
+  }
+  
+
+.none {
+    border: none;
+}
+.color1 {
+    background-color: skyblue;
+}
+
+.color2 {
+    background-color: violet;
+}
+.color3 {
+    background-color: blueviolet;
+}
+.color4 {
+    background-color: yellowgreen;
+}
+.color5 {
+    background-color: lightblue;
+}
+.color6 {
+    background-color: lightgreen;
+}
+.color7 {
+    background-color: orange;
+}
+.color8 {
+    background-color: gold;
+}
+.color9 {
+    background-color: goldenrod;
+}
+.color10{
+    background-color: rgba(255, 51, 0, 0.998);
+}
+
+.color1:hover{
+    color: green;
+
+}
+.color1:hover {
+    filter: brightness(200%);
+    color: black;
+    background-color: gold;
+}

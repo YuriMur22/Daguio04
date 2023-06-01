@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('003.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed  
+}
+
+.CALENDAR2022{
+    color: rgb(7, 0, 0);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: rgb(17, 235, 247);
+    border: pink; border-width: 5px; border-style: solid;
+    padding: 1%;
+    margin-left: 5%;
+    margin-right: 6%;
+    margin-top: 1%;
+   
+
+}
+
+table{
+    float: left;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+
+table, th, td{
+    width: 17%;
+    text-align: center;
+    font-size: 15px;
+    border-collapse: collapse;
+    border: 1px solid #ff44b1;
+    color: #fff;
+    padding: 7px;
+    color: white;
+    background-color: #0000004d; 
+}
+
+td:hover{
+    background: rgb(195, 91, 255);
+}
+
+.text1{
+    background-color: rgb(255, 50, 50);
+    
+}
+.text2{
+   background-color: rgb(52, 208, 255);
+}
+
+a{
+    text-decoration: none
+    ;
+}

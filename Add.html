@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Julivel Calculator</title>
+</head>
+<body>
+	<label for="firstNumber">Enter First Number:</label>
+	<input type="text" id="firstNumber" name="firstNumber">
+
+	<label for="secondNumber">Enter Second Number:</label>
+	<input type="text" id="secondNumber" name="secondNumber">
+	<br>
+	<br>
+	<button onclick="calculate()">Calculate</button>
+	<p id="result"></p>
+
+	<script>
+		function calculate() {
+			// Get the values of the two input fields
+			const firstNumber = parseFloat(document.getElementById("firstNumber").value);
+			const secondNumber = parseFloat(document.getElementById("secondNumber").value);
+
+			// Calculate the results for all four operations
+			const sum = firstNumber + secondNumber;
+			const difference = firstNumber - secondNumber;
+			const product = firstNumber * secondNumber;
+			const quotient = firstNumber / secondNumber;
+
+			// Create a message with all four results
+			const message = `The sum of ${firstNumber} and ${secondNumber} is: ${sum}<br>
+							  The difference of ${firstNumber} and ${secondNumber} is: ${difference}<br>
+							  The product of ${firstNumber} and ${secondNumber} is: ${product}<br>
+							  The quotient of ${firstNumber} and ${secondNumber} is: ${quotient}`;
+
+			// Display the results in the HTML
+			document.getElementById("result").innerHTML = message;
+		}
+	</script>
+</body>
+</html>
